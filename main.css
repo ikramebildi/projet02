@@ -1,0 +1,24 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    color: cornflowerblue;
+}
+:root{
+    --first-color:cornflowerblue;
+
+}
+.btn-btn{
+    outline: none;
+    border: none;
+    padding: 12 px 25px;
+    background-color: var(--first-color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+.btn-btn:hover{
+    transition: .3s;
+    background-color: white;
+}
